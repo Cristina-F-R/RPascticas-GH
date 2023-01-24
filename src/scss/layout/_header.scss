@@ -1,0 +1,122 @@
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Explora', cursive;
+  font-family: 'Rubik', sans-serif;
+  background-image: url(../images/fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 460px;
+  margin-bottom: 6rem;
+  min-width: 289px;
+}
+
+.menu-tablet {
+  display: none;
+}
+
+
+.navbar {
+  position: fixed;
+  width: 100%;
+
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: $--aqua;
+  opacity: 0.9;
+  align-items: center;
+  padding: 15px 0;
+
+}
+
+.nombre-grupo {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 60px;
+  background-color: #099d8d;
+  opacity: 0.95;
+  letter-spacing: 0.2rem;
+
+}
+
+.elemento-menu {
+  font-size: 1.5rem;
+  list-style-type: none;
+  text-transform: uppercase;
+
+}
+
+.rectangle {
+  background-color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 89%;
+  width: 90%;
+  height: 15%;
+  align-self: center;
+  align-content: center;
+  padding-top: 20px;
+  line-height: 25px;
+}
+@media screen and (min-width:768px) {
+
+  .hero {
+    width: 100%;
+    color: white;
+    font-family: 'Explora', cursive;
+    font-family: 'Rubik', sans-serif;
+    height: 421px;
+    font-size: 1.5rem;
+
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .menu-tablet {
+    display: flex;
+    flex-direction: row;
+    background-color: $--blue-green;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 20px ;
+  }
+
+
+  .elemento-menu {
+    font-size: 1.5rem;
+    list-style-type: none;
+    text-transform: uppercase;
+    display: inline;
+    padding: 10px;
+
+  }
+
+  .rectangle {
+    background-color: white;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    text-align: left;
+    color: black;
+    position: relative;
+    top: 68%;
+    right: 15%;
+    width: 55%;
+    height: 25%;
+    align-content: center;
+    padding: 10px;
+    line-height: 25px;
+  }
+
+}
